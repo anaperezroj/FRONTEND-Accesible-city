@@ -1,0 +1,15 @@
+.block-container {
+  overflow: scroll;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  /* pantallas grandes */
+  .block-container {
+    overflow: scroll;
+    margin-top: 2rem;
+  }
+}
